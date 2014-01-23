@@ -48,6 +48,7 @@ public class NBTrain {
 				}
 			}
 		}
+		bi.close();
 		System.out.println("Y=*\t"+totalCount);
 		printHashMap(labelCount);
 		printHashMap(labelWordCount);

@@ -26,6 +26,7 @@ public class NBTest {
 			parseLabel(label,count);
 			readTest(args[0]);
 		}
+		bi.close();
 	}
 
 	private static void parseLabel(String label,int count) {
@@ -63,6 +64,7 @@ public class NBTest {
 				System.out.println(result);
 				
 			}
+			bi.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
