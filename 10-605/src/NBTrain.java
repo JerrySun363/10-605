@@ -21,7 +21,7 @@ public class NBTrain {
 			String[] parts = line.split("\t");
 			String[] labels = parts[0].split(",");
 			String cur_doc = parts[1];
-			Vector<String> words = tokenizeDoc(cur_doc);
+			Vector<Integer> words = tokenizeDoc(cur_doc);
 			
 			for(String label:labels){
 				
@@ -29,14 +29,14 @@ public class NBTrain {
 				totalCount++;
 				
 
-				/*if(labelCount.containsKey(newLabel)){
-					int count = labelCount.get(newLabel);
-					labelCount.put(newLabel, count+1);
+				if(labelWordCount.containsKey(newLabel)){
+					int count = labelWordCount.get(newLabel);
+					labelWordCount.put(newLabel, count+1);
 				}else{
-					labelCount.put(newLabel, 1);
-				}*/
+					labelWordCount.put(newLabel, 1);
+				}
 
-				for(String word:words){
+				for(int word:words){
 					String key = newLabel+",W="+word;
 					if(labelWordCount.containsKey(key)){
 						labelWordCount.put(key, labelWordCount.get(key)+1);
@@ -44,19 +44,24 @@ public class NBTrain {
 						labelWordCount.put(key, 1);
 					}
 				}
-				/*String allWord = "Y="+label+",W=*";
+				String allWord = "Y="+label+",W="+"*".hashCode();
 				if(labelWordCount.containsKey(allWord)){
 					labelWordCount.put(allWord, labelWordCount.get(allWord)+words.size());
 				}else{
 					labelWordCount.put(allWord,words.size());
-				}*/
+				}
 			}
 
-			if(totalCount>=50000){
+			if(Runtime.getRuntime().freeMemory()<=15000000){
+				System.out.println("Total memory is "+ Runtime.getRuntime().totalMemory() + " Free memory is "+ Runtime.getRuntime().freeMemory());
+				System.out.println("Total Count is " + totalCount);
 				printHashMap(labelWordCount);
 				labelWordCount.clear();
+				//labelWordCount=null;
 				System.gc();
-				totalCount-=50000;
+				//labelWordCount= new HashMap<String, Integer>();
+				//pw.flush();
+				//totalCount-=40000;
 			}
 		}
 		bi.close();
@@ -69,13 +74,13 @@ public class NBTrain {
 		   
 	}
 	
-	static Vector<String> tokenizeDoc(String cur_doc) {
-        String[] words = cur_doc.split("\\s+");
-        Vector<String> tokens = new Vector<String>();
+	static Vector<Integer> tokenizeDoc(String cur_doc) {
+        String[] words = cur_doc.split("\\s+|_+|\\%\\d+");
+        Vector<Integer> tokens = new Vector<Integer>();
         for (int i = 0; i < words.length; i++) {
         	words[i] = words[i].replaceAll("\\W", "");
         	if (words[i].length() > 0) {
-        		tokens.add(words[i]);
+        		tokens.add(words[i].toLowerCase().hashCode());
         	} 
         }
 		return tokens;
@@ -86,6 +91,7 @@ public class NBTrain {
 		for(String s:keys){
 			pw.println(s+"\t"+count.get(s));
 		}
+		//pw.flush();
 	}
 	
 }
