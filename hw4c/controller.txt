@@ -1,0 +1,6 @@
+2014-03-09T11:40:14.321Z INFO Fetching jar file.
+2014-03-09T11:40:21.593Z INFO Working dir /mnt/var/lib/hadoop/steps/2
+2014-03-09T11:40:21.593Z INFO Executing /usr/java/latest/bin/java -cp /home/hadoop/conf:/usr/java/latest/lib/tools.jar:/home/hadoop:/home/hadoop/hadoop-tools.jar:/home/hadoop/hadoop-tools-1.0.3.jar:/home/hadoop/hadoop-core-1.0.3.jar:/home/hadoop/hadoop-core.jar:/home/hadoop/lib/*:/home/hadoop/lib/jetty-ext/* -Xmx1000m -Dhadoop.log.dir=/mnt/var/log/hadoop/steps/2 -Dhadoop.log.file=syslog -Dhadoop.home.dir=/home/hadoop -Dhadoop.id.str=hadoop -Dhadoop.root.logger=INFO,DRFA -Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/2/tmp -Djava.library.path=/home/hadoop/native/Linux-amd64-64 org.apache.hadoop.util.RunJar /mnt/var/lib/hadoop/steps/2/phrase.jar run_hadoop_phrase s3://bigmldatasets/phrases/full/unigram s3://bigmldatasets/phrases/full/bigram s3://chensun/output2/aggregated/ s3://chensun/output2/sizecount s3://chensun/output2/unigrammessage s3://chensun/output2/final
+2014-03-09T12:18:24.951Z INFO Execution ended with ret val 0
+2014-03-09T12:18:32.035Z INFO Step created jobs: job_201403091138_0001,job_201403091138_0002,job_201403091138_0003,job_201403091138_0004
+2014-03-09T12:19:00.403Z INFO Step succeeded

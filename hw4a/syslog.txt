@@ -1,0 +1,148 @@
+2014-02-21 04:06:34,659 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-02-21 04:06:34,659 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 8
+2014-02-21 04:06:34,659 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 3
+2014-02-21 04:06:38,347 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2014-02-21 04:06:38,347 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-02-21 04:06:38,933 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2014-02-21 04:06:39,030 WARN com.hadoop.compression.lzo.LzoCodec (main): Could not find build properties file with revision hash
+2014-02-21 04:06:39,030 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev UNKNOWN]
+2014-02-21 04:06:39,081 WARN org.apache.hadoop.io.compress.snappy.LoadSnappy (main): Snappy native library is available
+2014-02-21 04:06:39,081 INFO org.apache.hadoop.io.compress.snappy.LoadSnappy (main): Snappy native library loaded
+2014-02-21 04:06:40,232 INFO org.apache.hadoop.mapred.FileInputFormat (main): Total input paths to process : 5
+2014-02-21 04:06:42,284 INFO org.apache.hadoop.streaming.StreamJob (main): getLocalDirs(): [/mnt/var/lib/hadoop/mapred]
+2014-02-21 04:06:42,284 INFO org.apache.hadoop.streaming.StreamJob (main): Running job: job_201402210404_0001
+2014-02-21 04:06:42,284 INFO org.apache.hadoop.streaming.StreamJob (main): To kill this job, run:
+2014-02-21 04:06:42,284 INFO org.apache.hadoop.streaming.StreamJob (main): /home/hadoop/bin/hadoop job  -Dmapred.job.tracker=172.31.31.48:9001 -kill job_201402210404_0001
+2014-02-21 04:06:42,285 INFO org.apache.hadoop.streaming.StreamJob (main): Tracking URL: http://ip-172-31-31-48.us-west-2.compute.internal:9100/jobdetails.jsp?jobid=job_201402210404_0001
+2014-02-21 04:06:43,290 INFO org.apache.hadoop.streaming.StreamJob (main):  map 0%  reduce 0%
+2014-02-21 04:07:35,682 INFO org.apache.hadoop.streaming.StreamJob (main):  map 1%  reduce 0%
+2014-02-21 04:07:53,766 INFO org.apache.hadoop.streaming.StreamJob (main):  map 2%  reduce 0%
+2014-02-21 04:07:59,801 INFO org.apache.hadoop.streaming.StreamJob (main):  map 3%  reduce 0%
+2014-02-21 04:08:05,826 INFO org.apache.hadoop.streaming.StreamJob (main):  map 4%  reduce 0%
+2014-02-21 04:08:11,859 INFO org.apache.hadoop.streaming.StreamJob (main):  map 5%  reduce 0%
+2014-02-21 04:08:17,883 INFO org.apache.hadoop.streaming.StreamJob (main):  map 6%  reduce 0%
+2014-02-21 04:08:20,895 INFO org.apache.hadoop.streaming.StreamJob (main):  map 7%  reduce 0%
+2014-02-21 04:08:26,922 INFO org.apache.hadoop.streaming.StreamJob (main):  map 8%  reduce 0%
+2014-02-21 04:08:29,933 INFO org.apache.hadoop.streaming.StreamJob (main):  map 9%  reduce 0%
+2014-02-21 04:08:35,960 INFO org.apache.hadoop.streaming.StreamJob (main):  map 10%  reduce 0%
+2014-02-21 04:08:41,982 INFO org.apache.hadoop.streaming.StreamJob (main):  map 11%  reduce 0%
+2014-02-21 04:08:44,993 INFO org.apache.hadoop.streaming.StreamJob (main):  map 12%  reduce 0%
+2014-02-21 04:08:51,018 INFO org.apache.hadoop.streaming.StreamJob (main):  map 13%  reduce 0%
+2014-02-21 04:08:54,030 INFO org.apache.hadoop.streaming.StreamJob (main):  map 14%  reduce 0%
+2014-02-21 04:08:57,042 INFO org.apache.hadoop.streaming.StreamJob (main):  map 15%  reduce 0%
+2014-02-21 04:09:03,067 INFO org.apache.hadoop.streaming.StreamJob (main):  map 16%  reduce 0%
+2014-02-21 04:09:06,079 INFO org.apache.hadoop.streaming.StreamJob (main):  map 17%  reduce 0%
+2014-02-21 04:09:15,118 INFO org.apache.hadoop.streaming.StreamJob (main):  map 18%  reduce 0%
+2014-02-21 04:09:19,134 INFO org.apache.hadoop.streaming.StreamJob (main):  map 19%  reduce 0%
+2014-02-21 04:09:25,158 INFO org.apache.hadoop.streaming.StreamJob (main):  map 20%  reduce 0%
+2014-02-21 04:09:31,192 INFO org.apache.hadoop.streaming.StreamJob (main):  map 21%  reduce 0%
+2014-02-21 04:09:37,260 INFO org.apache.hadoop.streaming.StreamJob (main):  map 22%  reduce 0%
+2014-02-21 04:09:42,319 INFO org.apache.hadoop.streaming.StreamJob (main):  map 23%  reduce 0%
+2014-02-21 04:09:57,375 INFO org.apache.hadoop.streaming.StreamJob (main):  map 24%  reduce 0%
+2014-02-21 04:10:25,519 INFO org.apache.hadoop.streaming.StreamJob (main):  map 25%  reduce 0%
+2014-02-21 04:10:34,557 INFO org.apache.hadoop.streaming.StreamJob (main):  map 25%  reduce 1%
+2014-02-21 04:10:36,564 INFO org.apache.hadoop.streaming.StreamJob (main):  map 25%  reduce 3%
+2014-02-21 04:10:37,568 INFO org.apache.hadoop.streaming.StreamJob (main):  map 26%  reduce 3%
+2014-02-21 04:10:43,590 INFO org.apache.hadoop.streaming.StreamJob (main):  map 26%  reduce 5%
+2014-02-21 04:10:46,602 INFO org.apache.hadoop.streaming.StreamJob (main):  map 27%  reduce 5%
+2014-02-21 04:10:52,633 INFO org.apache.hadoop.streaming.StreamJob (main):  map 28%  reduce 5%
+2014-02-21 04:10:55,644 INFO org.apache.hadoop.streaming.StreamJob (main):  map 29%  reduce 5%
+2014-02-21 04:11:01,666 INFO org.apache.hadoop.streaming.StreamJob (main):  map 30%  reduce 5%
+2014-02-21 04:11:04,681 INFO org.apache.hadoop.streaming.StreamJob (main):  map 31%  reduce 5%
+2014-02-21 04:11:10,705 INFO org.apache.hadoop.streaming.StreamJob (main):  map 32%  reduce 5%
+2014-02-21 04:11:16,728 INFO org.apache.hadoop.streaming.StreamJob (main):  map 33%  reduce 5%
+2014-02-21 04:11:19,740 INFO org.apache.hadoop.streaming.StreamJob (main):  map 34%  reduce 5%
+2014-02-21 04:11:25,774 INFO org.apache.hadoop.streaming.StreamJob (main):  map 35%  reduce 5%
+2014-02-21 04:11:31,796 INFO org.apache.hadoop.streaming.StreamJob (main):  map 36%  reduce 5%
+2014-02-21 04:11:34,807 INFO org.apache.hadoop.streaming.StreamJob (main):  map 37%  reduce 5%
+2014-02-21 04:11:40,830 INFO org.apache.hadoop.streaming.StreamJob (main):  map 38%  reduce 5%
+2014-02-21 04:11:43,841 INFO org.apache.hadoop.streaming.StreamJob (main):  map 39%  reduce 5%
+2014-02-21 04:11:46,856 INFO org.apache.hadoop.streaming.StreamJob (main):  map 40%  reduce 5%
+2014-02-21 04:11:52,878 INFO org.apache.hadoop.streaming.StreamJob (main):  map 41%  reduce 5%
+2014-02-21 04:11:55,890 INFO org.apache.hadoop.streaming.StreamJob (main):  map 42%  reduce 5%
+2014-02-21 04:12:04,924 INFO org.apache.hadoop.streaming.StreamJob (main):  map 43%  reduce 5%
+2014-02-21 04:12:07,936 INFO org.apache.hadoop.streaming.StreamJob (main):  map 44%  reduce 5%
+2014-02-21 04:12:13,958 INFO org.apache.hadoop.streaming.StreamJob (main):  map 45%  reduce 5%
+2014-02-21 04:12:19,983 INFO org.apache.hadoop.streaming.StreamJob (main):  map 45%  reduce 7%
+2014-02-21 04:12:22,994 INFO org.apache.hadoop.streaming.StreamJob (main):  map 46%  reduce 7%
+2014-02-21 04:12:29,019 INFO org.apache.hadoop.streaming.StreamJob (main):  map 47%  reduce 7%
+2014-02-21 04:12:35,052 INFO org.apache.hadoop.streaming.StreamJob (main):  map 48%  reduce 7%
+2014-02-21 04:12:38,063 INFO org.apache.hadoop.streaming.StreamJob (main):  map 48%  reduce 8%
+2014-02-21 04:12:47,099 INFO org.apache.hadoop.streaming.StreamJob (main):  map 49%  reduce 8%
+2014-02-21 04:12:56,131 INFO org.apache.hadoop.streaming.StreamJob (main):  map 50%  reduce 8%
+2014-02-21 04:12:59,147 INFO org.apache.hadoop.streaming.StreamJob (main):  map 50%  reduce 9%
+2014-02-21 04:13:02,158 INFO org.apache.hadoop.streaming.StreamJob (main):  map 50%  reduce 10%
+2014-02-21 04:13:05,170 INFO org.apache.hadoop.streaming.StreamJob (main):  map 51%  reduce 10%
+2014-02-21 04:13:08,181 INFO org.apache.hadoop.streaming.StreamJob (main):  map 52%  reduce 10%
+2014-02-21 04:13:14,203 INFO org.apache.hadoop.streaming.StreamJob (main):  map 53%  reduce 10%
+2014-02-21 04:13:17,215 INFO org.apache.hadoop.streaming.StreamJob (main):  map 54%  reduce 10%
+2014-02-21 04:13:23,268 INFO org.apache.hadoop.streaming.StreamJob (main):  map 55%  reduce 10%
+2014-02-21 04:13:26,280 INFO org.apache.hadoop.streaming.StreamJob (main):  map 56%  reduce 10%
+2014-02-21 04:13:32,301 INFO org.apache.hadoop.streaming.StreamJob (main):  map 57%  reduce 10%
+2014-02-21 04:13:35,313 INFO org.apache.hadoop.streaming.StreamJob (main):  map 58%  reduce 10%
+2014-02-21 04:13:41,335 INFO org.apache.hadoop.streaming.StreamJob (main):  map 59%  reduce 10%
+2014-02-21 04:13:47,357 INFO org.apache.hadoop.streaming.StreamJob (main):  map 60%  reduce 10%
+2014-02-21 04:13:50,367 INFO org.apache.hadoop.streaming.StreamJob (main):  map 61%  reduce 10%
+2014-02-21 04:13:56,389 INFO org.apache.hadoop.streaming.StreamJob (main):  map 62%  reduce 10%
+2014-02-21 04:13:59,399 INFO org.apache.hadoop.streaming.StreamJob (main):  map 63%  reduce 10%
+2014-02-21 04:14:05,423 INFO org.apache.hadoop.streaming.StreamJob (main):  map 64%  reduce 10%
+2014-02-21 04:14:08,434 INFO org.apache.hadoop.streaming.StreamJob (main):  map 65%  reduce 10%
+2014-02-21 04:14:15,466 INFO org.apache.hadoop.streaming.StreamJob (main):  map 66%  reduce 10%
+2014-02-21 04:14:21,507 INFO org.apache.hadoop.streaming.StreamJob (main):  map 67%  reduce 10%
+2014-02-21 04:14:27,529 INFO org.apache.hadoop.streaming.StreamJob (main):  map 68%  reduce 10%
+2014-02-21 04:14:30,542 INFO org.apache.hadoop.streaming.StreamJob (main):  map 68%  reduce 11%
+2014-02-21 04:14:35,564 INFO org.apache.hadoop.streaming.StreamJob (main):  map 69%  reduce 12%
+2014-02-21 04:14:41,602 INFO org.apache.hadoop.streaming.StreamJob (main):  map 70%  reduce 12%
+2014-02-21 04:14:47,626 INFO org.apache.hadoop.streaming.StreamJob (main):  map 71%  reduce 12%
+2014-02-21 04:14:53,653 INFO org.apache.hadoop.streaming.StreamJob (main):  map 72%  reduce 12%
+2014-02-21 04:15:00,678 INFO org.apache.hadoop.streaming.StreamJob (main):  map 72%  reduce 13%
+2014-02-21 04:15:02,685 INFO org.apache.hadoop.streaming.StreamJob (main):  map 73%  reduce 13%
+2014-02-21 04:15:17,330 INFO org.apache.hadoop.streaming.StreamJob (main):  map 73%  reduce 14%
+2014-02-21 04:15:19,350 INFO org.apache.hadoop.streaming.StreamJob (main):  map 74%  reduce 14%
+2014-02-21 04:15:22,375 INFO org.apache.hadoop.streaming.StreamJob (main):  map 75%  reduce 14%
+2014-02-21 04:15:25,407 INFO org.apache.hadoop.streaming.StreamJob (main):  map 75%  reduce 15%
+2014-02-21 04:15:28,419 INFO org.apache.hadoop.streaming.StreamJob (main):  map 76%  reduce 16%
+2014-02-21 04:15:34,559 INFO org.apache.hadoop.streaming.StreamJob (main):  map 77%  reduce 16%
+2014-02-21 04:15:37,570 INFO org.apache.hadoop.streaming.StreamJob (main):  map 78%  reduce 16%
+2014-02-21 04:15:43,611 INFO org.apache.hadoop.streaming.StreamJob (main):  map 79%  reduce 16%
+2014-02-21 04:15:46,621 INFO org.apache.hadoop.streaming.StreamJob (main):  map 80%  reduce 16%
+2014-02-21 04:15:52,641 INFO org.apache.hadoop.streaming.StreamJob (main):  map 81%  reduce 16%
+2014-02-21 04:15:55,651 INFO org.apache.hadoop.streaming.StreamJob (main):  map 82%  reduce 16%
+2014-02-21 04:15:59,664 INFO org.apache.hadoop.streaming.StreamJob (main):  map 83%  reduce 16%
+2014-02-21 04:16:04,686 INFO org.apache.hadoop.streaming.StreamJob (main):  map 84%  reduce 16%
+2014-02-21 04:16:08,701 INFO org.apache.hadoop.streaming.StreamJob (main):  map 85%  reduce 16%
+2014-02-21 04:16:11,714 INFO org.apache.hadoop.streaming.StreamJob (main):  map 86%  reduce 16%
+2014-02-21 04:16:16,733 INFO org.apache.hadoop.streaming.StreamJob (main):  map 87%  reduce 16%
+2014-02-21 04:16:19,744 INFO org.apache.hadoop.streaming.StreamJob (main):  map 88%  reduce 16%
+2014-02-21 04:16:25,765 INFO org.apache.hadoop.streaming.StreamJob (main):  map 89%  reduce 16%
+2014-02-21 04:16:29,784 INFO org.apache.hadoop.streaming.StreamJob (main):  map 90%  reduce 16%
+2014-02-21 04:16:35,807 INFO org.apache.hadoop.streaming.StreamJob (main):  map 91%  reduce 16%
+2014-02-21 04:16:38,820 INFO org.apache.hadoop.streaming.StreamJob (main):  map 91%  reduce 17%
+2014-02-21 04:16:41,833 INFO org.apache.hadoop.streaming.StreamJob (main):  map 92%  reduce 17%
+2014-02-21 04:16:44,843 INFO org.apache.hadoop.streaming.StreamJob (main):  map 93%  reduce 17%
+2014-02-21 04:16:47,853 INFO org.apache.hadoop.streaming.StreamJob (main):  map 94%  reduce 17%
+2014-02-21 04:16:50,864 INFO org.apache.hadoop.streaming.StreamJob (main):  map 95%  reduce 17%
+2014-02-21 04:16:53,874 INFO org.apache.hadoop.streaming.StreamJob (main):  map 96%  reduce 17%
+2014-02-21 04:16:56,888 INFO org.apache.hadoop.streaming.StreamJob (main):  map 97%  reduce 17%
+2014-02-21 04:16:59,899 INFO org.apache.hadoop.streaming.StreamJob (main):  map 98%  reduce 17%
+2014-02-21 04:17:02,910 INFO org.apache.hadoop.streaming.StreamJob (main):  map 99%  reduce 17%
+2014-02-21 04:17:05,921 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 17%
+2014-02-21 04:17:11,944 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 18%
+2014-02-21 04:17:17,966 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 20%
+2014-02-21 04:17:20,977 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 21%
+2014-02-21 04:17:27,001 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 22%
+2014-02-21 04:17:30,011 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 45%
+2014-02-21 04:17:33,022 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 46%
+2014-02-21 04:17:36,034 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 53%
+2014-02-21 04:17:39,045 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 61%
+2014-02-21 04:17:42,057 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 66%
+2014-02-21 04:17:45,067 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 67%
+2014-02-21 04:17:54,099 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 75%
+2014-02-21 04:17:57,109 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 78%
+2014-02-21 04:18:00,119 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 89%
+2014-02-21 04:18:03,147 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 90%
+2014-02-21 04:18:06,159 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 93%
+2014-02-21 04:18:09,170 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 97%
+2014-02-21 04:18:12,182 INFO org.apache.hadoop.streaming.StreamJob (main):  map 100%  reduce 100%
+2014-02-21 04:18:21,226 INFO org.apache.hadoop.streaming.StreamJob (main): Job complete: job_201402210404_0001
+2014-02-21 04:18:21,226 INFO org.apache.hadoop.streaming.StreamJob (main): Output: s3://chensun/nb5/

@@ -1,0 +1,470 @@
+2014-04-19 19:44:53,208 [main] INFO  org.apache.pig.Main - Apache Pig version 0.11.1.1-amzn (rexported) compiled Aug 03 2013, 22:52:20
+2014-04-19 19:44:53,209 [main] INFO  org.apache.pig.Main - Logging error messages to: /mnt/var/lib/hadoop/steps/5/pig_1397936693182.log
+2014-04-19 19:44:55,083 [main] INFO  org.apache.pig.impl.io.FileLocalizer - Downloading file s3://chensun/run.pig to path /tmp/pig5474005937311552950tmp/run.pig
+2014-04-19 19:44:55,087 [main] INFO  org.apache.hadoop.fs.s3native.NativeS3FileSystem - Opening 's3://chensun/run.pig' for reading
+2014-04-19 19:44:55,112 [main] INFO  org.apache.hadoop.util.NativeCodeLoader - Loaded the native-hadoop library
+2014-04-19 19:44:55,115 [main] INFO  org.apache.pig.Main - Final script path: /tmp/pig5474005937311552950tmp/run.pig
+2014-04-19 19:44:55,124 [main] INFO  org.apache.pig.impl.util.Utils - Default bootup file /home/hadoop/.pigbootup not found
+2014-04-19 19:44:55,280 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine - Connecting to hadoop file system at: hdfs://172.31.24.25:9000
+2014-04-19 19:44:55,500 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine - Connecting to map-reduce job tracker at: 172.31.24.25:9001
+2014-04-19 19:47:16,775 [main] WARN  org.apache.pig.PigServer - Encountered Warning IMPLICIT_CAST_TO_DOUBLE 4 time(s).
+2014-04-19 19:47:16,812 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig features used in the script: HASH_JOIN,GROUP_BY,ORDER_BY,FILTER,CROSS,LIMIT
+2014-04-19 19:47:17,463 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - File concatenation threshold: 100 optimistic? false
+2014-04-19 19:47:17,538 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - number of input files: 0
+2014-04-19 19:47:17,539 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - number of input files: 0
+2014-04-19 19:47:17,540 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - number of input files: 0
+2014-04-19 19:47:17,542 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - number of input files: 1
+2014-04-19 19:47:17,545 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - number of input files: 1
+2014-04-19 19:47:17,547 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - number of input files: 1
+2014-04-19 19:47:17,554 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.CombinerOptimizer - Choosing to move algebraic foreach to combiner
+2014-04-19 19:47:17,565 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.CombinerOptimizer - Choosing to move algebraic foreach to combiner
+2014-04-19 19:47:17,570 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.CombinerOptimizer - Choosing to move algebraic foreach to combiner
+2014-04-19 19:47:17,579 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.CombinerOptimizer - Choosing to move algebraic foreach to combiner
+2014-04-19 19:47:17,630 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler$LastInputStreamingOptimizer - Rewrite: POPackage->POForEach to POJoinPackage
+2014-04-19 19:47:17,632 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler$LastInputStreamingOptimizer - Rewrite: POPackage->POForEach to POJoinPackage
+2014-04-19 19:47:17,633 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler$LastInputStreamingOptimizer - Rewrite: POPackage->POForEach to POJoinPackage
+2014-04-19 19:47:17,635 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler$LastInputStreamingOptimizer - Rewrite: POPackage->POForEach to POJoinPackage
+2014-04-19 19:47:17,641 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler$LastInputStreamingOptimizer - Rewrite: POPackage->POForEach to POJoinPackage
+2014-04-19 19:47:17,669 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - MR plan size before optimization: 23
+2014-04-19 19:47:17,670 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 0 diamond splitter.
+2014-04-19 19:47:17,671 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 0 out of total 3 MR operators.
+2014-04-19 19:47:17,678 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 map-only splittees.
+2014-04-19 19:47:17,679 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 out of total 3 MR operators.
+2014-04-19 19:47:17,681 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 map-only splittees.
+2014-04-19 19:47:17,682 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 out of total 3 MR operators.
+2014-04-19 19:47:17,683 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 map-only splittees.
+2014-04-19 19:47:17,684 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 map-reduce splittees.
+2014-04-19 19:47:17,685 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 2 out of total 3 MR operators.
+2014-04-19 19:47:17,685 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 map-only splittees.
+2014-04-19 19:47:17,685 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 out of total 3 MR operators.
+2014-04-19 19:47:17,685 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 map-only splittees.
+2014-04-19 19:47:17,685 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 out of total 3 MR operators.
+2014-04-19 19:47:17,685 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 map-reduce splittees.
+2014-04-19 19:47:17,686 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 out of total 3 MR operators.
+2014-04-19 19:47:17,686 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 map-reduce splittees.
+2014-04-19 19:47:17,686 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - Merged 1 out of total 3 MR operators.
+2014-04-19 19:47:17,686 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - MR plan size after optimization: 15
+2014-04-19 19:47:17,790 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 19:47:17,812 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 19:47:17,864 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 10
+2014-04-19 19:47:17,865 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job8312224664101034628.jar
+2014-04-19 19:47:25,311 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job8312224664101034628.jar created
+2014-04-19 19:47:25,334 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 19:47:25,345 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 19:47:25,345 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 19:47:25,346 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 19:47:25,405 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 19:47:25,406 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 19:47:25,407 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 1
+2014-04-19 19:47:25,407 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job817551986526819070.jar
+2014-04-19 19:47:32,209 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job817551986526819070.jar created
+2014-04-19 19:47:32,221 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up multi store job
+2014-04-19 19:47:32,232 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 19:47:32,233 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 19:47:32,233 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 19:47:32,335 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 19:47:32,336 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 19:47:32,338 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 1
+2014-04-19 19:47:32,339 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job8388060681820269657.jar
+2014-04-19 19:47:39,179 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job8388060681820269657.jar created
+2014-04-19 19:47:39,191 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up multi store job
+2014-04-19 19:47:39,197 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 19:47:39,198 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 19:47:39,198 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 19:47:39,258 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 3 map-reduce job(s) waiting for submission.
+2014-04-19 19:47:39,282 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 19:47:39,283 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 12
+2014-04-19 19:47:39,283 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 1
+2014-04-19 19:47:39,560 [JobControl] INFO  org.apache.hadoop.security.ShellBasedUnixGroupsMapping - add hadoop to shell userGroupsCache
+2014-04-19 19:47:39,560 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 19:47:39,759 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 0% complete
+2014-04-19 19:47:40,504 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 8
+2014-04-19 19:47:40,504 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 8
+2014-04-19 19:47:40,538 [JobControl] INFO  com.hadoop.compression.lzo.GPLNativeCodeLoader - Loaded native gpl library
+2014-04-19 19:47:40,556 [JobControl] WARN  com.hadoop.compression.lzo.LzoCodec - Could not find build properties file with revision hash
+2014-04-19 19:47:40,556 [JobControl] INFO  com.hadoop.compression.lzo.LzoCodec - Successfully loaded & initialized native-lzo library [hadoop-lzo rev UNKNOWN]
+2014-04-19 19:47:40,572 [JobControl] WARN  org.apache.hadoop.io.compress.snappy.LoadSnappy - Snappy native library is available
+2014-04-19 19:47:40,572 [JobControl] INFO  org.apache.hadoop.io.compress.snappy.LoadSnappy - Snappy native library loaded
+2014-04-19 19:47:40,579 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 4
+2014-04-19 19:47:41,019 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 19:47:41,019 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 12
+2014-04-19 19:47:41,020 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 1
+2014-04-19 19:47:41,147 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 19:47:41,667 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 8
+2014-04-19 19:47:41,667 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 8
+2014-04-19 19:47:41,673 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 19:47:41,874 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 19:47:41,874 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 12
+2014-04-19 19:47:41,874 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 0
+2014-04-19 19:47:42,010 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 19:47:42,520 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 1
+2014-04-19 19:47:42,520 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 1
+2014-04-19 19:47:42,521 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 2
+2014-04-19 19:47:43,194 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0001
+2014-04-19 19:47:43,195 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases ECATdata,ECATgroup,cleanData,rawData,totalCount
+2014-04-19 19:47:43,195 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: rawData[5,10],cleanData[-1,-1],ECATdata[17,11],totalCount[20,13],ECATgroup[19,12] C: totalCount[20,13],ECATgroup[19,12] R: totalCount[20,13]
+2014-04-19 19:47:43,195 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0001
+2014-04-19 19:47:43,200 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0002
+2014-04-19 19:47:43,200 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases classData,classF,classTotal,classTotal1
+2014-04-19 19:47:43,200 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: classData[28,12],classData[-1,-1],classF[34,9],classTotal[30,13],classTotal1[29,14] C: classTotal[30,13],classTotal1[29,14] R: classTotal[30,13]
+2014-04-19 19:47:43,200 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0002
+2014-04-19 19:47:43,206 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0003
+2014-04-19 19:47:43,206 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases rawTestData
+2014-04-19 19:47:43,206 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: rawTestData[41,14],rawTestData[-1,-1] C:  R: 
+2014-04-19 19:47:43,206 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0003
+2014-04-19 19:48:08,049 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 3% complete
+2014-04-19 19:48:22,729 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 5% complete
+2014-04-19 19:48:28,799 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 9% complete
+2014-04-19 19:48:31,836 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 11% complete
+2014-04-19 19:48:37,901 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 15% complete
+2014-04-19 19:49:14,147 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 20% complete
+2014-04-19 19:49:23,215 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 19:49:23,216 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 19:49:23,216 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 10
+2014-04-19 19:49:23,217 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job1808208567476550962.jar
+2014-04-19 19:49:29,906 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job1808208567476550962.jar created
+2014-04-19 19:49:29,912 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 19:49:29,914 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 19:49:29,914 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 19:49:29,915 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 19:49:29,963 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 19:49:29,965 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 19:49:29,965 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 10
+2014-04-19 19:49:29,965 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job132142757365759637.jar
+2014-04-19 19:49:36,283 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job132142757365759637.jar created
+2014-04-19 19:49:36,289 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 19:49:36,290 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 19:49:36,290 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 19:49:36,290 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 19:49:36,330 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 19:49:36,331 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 19:49:36,332 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 10
+2014-04-19 19:49:36,332 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job4863507806175014788.jar
+2014-04-19 19:49:42,846 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job4863507806175014788.jar created
+2014-04-19 19:49:42,850 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 19:49:42,851 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 19:49:42,851 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 19:49:42,851 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 19:49:42,862 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 3 map-reduce job(s) waiting for submission.
+2014-04-19 19:49:42,871 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 19:49:42,871 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 12
+2014-04-19 19:49:42,871 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 10
+2014-04-19 19:49:42,971 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 19:49:42,993 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 4
+2014-04-19 19:49:42,994 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 4
+2014-04-19 19:49:43,002 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 4
+2014-04-19 19:49:43,121 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 19:49:43,121 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 12
+2014-04-19 19:49:43,121 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 10
+2014-04-19 19:49:43,260 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 19:49:43,317 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 4
+2014-04-19 19:49:43,317 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 4
+2014-04-19 19:49:43,329 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 19:49:43,333 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 2
+2014-04-19 19:49:43,333 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 2
+2014-04-19 19:49:43,335 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 19:49:43,363 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0004
+2014-04-19 19:49:43,363 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases vocabulary,wordTotal
+2014-04-19 19:49:43,363 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: wordTotal[11,12] C:  R: vocabulary[12,13]
+2014-04-19 19:49:43,363 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0004
+2014-04-19 19:49:43,466 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 19:49:43,466 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 12
+2014-04-19 19:49:43,466 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 10
+2014-04-19 19:49:43,616 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 19:49:43,634 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 1
+2014-04-19 19:49:43,634 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 1
+2014-04-19 19:49:43,636 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 19:49:43,641 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 1
+2014-04-19 19:49:43,641 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 1
+2014-04-19 19:49:43,643 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 19:49:44,347 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0005
+2014-04-19 19:49:44,347 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases ECATdataFormal,joinTable,joinTable1,joinTable2,testData,testData1
+2014-04-19 19:49:44,347 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: testData1[42,12],testData[43,11],joinTable1[46,13],ECATdataFormal[26,17],joinTable1[46,13] C:  R: joinTable1[46,13],joinTable2[47,14],joinTable[49,12]
+2014-04-19 19:49:44,347 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0005
+2014-04-19 19:49:44,350 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0006
+2014-04-19 19:49:44,350 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases classInUse,classPrior,resultFinal1
+2014-04-19 19:49:44,350 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: classInUse[35,13],classInUse[35,13],classInUse[35,13],classInUse[35,13] C:  R: classPrior[38,14],resultFinal1[54,15]
+2014-04-19 19:49:44,350 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0006
+2014-04-19 19:50:14,208 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 22% complete
+2014-04-19 19:50:28,871 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 25% complete
+2014-04-19 19:50:34,430 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 26% complete
+2014-04-19 19:50:34,935 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 28% complete
+2014-04-19 19:57:39,820 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 19:57:39,821 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 19:57:39,821 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 1
+2014-04-19 19:57:39,822 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job6709619898872024402.jar
+2014-04-19 19:57:46,112 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job6709619898872024402.jar created
+2014-04-19 19:57:46,116 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up multi store job
+2014-04-19 19:57:46,120 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 19:57:46,120 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 19:57:46,121 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 19:57:46,134 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2014-04-19 19:57:46,140 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 19:57:46,140 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 12
+2014-04-19 19:57:46,140 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 1
+2014-04-19 19:57:46,250 [JobControl] INFO  org.apache.hadoop.security.ShellBasedUnixGroupsMapping - add hadoop to shell userGroupsCache
+2014-04-19 19:57:46,250 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 19:57:46,272 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 10
+2014-04-19 19:57:46,272 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 10
+2014-04-19 19:57:46,285 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 19:57:46,635 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0007
+2014-04-19 19:57:46,635 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases voc,vocSize
+2014-04-19 19:57:46,635 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: vocSize[14,10],voc[13,6] C: vocSize[14,10],voc[13,6] R: vocSize[14,10]
+2014-04-19 19:57:46,635 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0007
+2014-04-19 19:58:05,711 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 41% complete
+2014-04-19 19:58:08,722 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 43% complete
+2014-04-19 19:58:20,768 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 44% complete
+2014-04-19 19:58:26,790 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 46% complete
+2014-04-19 19:58:36,838 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 19:58:36,839 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 19:58:36,839 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 10
+2014-04-19 19:58:36,840 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job361444966501762681.jar
+2014-04-19 19:58:43,259 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job361444966501762681.jar created
+2014-04-19 19:58:43,264 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 19:58:43,265 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 19:58:43,265 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 19:58:43,265 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 19:58:43,281 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2014-04-19 19:58:43,288 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 19:58:43,289 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 12
+2014-04-19 19:58:43,289 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 10
+2014-04-19 19:58:43,386 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 19:58:43,403 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 1
+2014-04-19 19:58:43,404 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 1
+2014-04-19 19:58:43,405 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 19:58:43,409 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 1
+2014-04-19 19:58:43,409 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 1
+2014-04-19 19:58:43,410 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 19:58:43,782 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0008
+2014-04-19 19:58:43,782 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases joinTable,temp1,totalFenmu
+2014-04-19 19:58:43,782 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: temp1[22,8],temp1[22,8],temp1[22,8],temp1[22,8] C:  R: totalFenmu[23,13],joinTable[49,12]
+2014-04-19 19:58:43,782 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0008
+2014-04-19 19:58:59,845 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 48% complete
+2014-04-19 19:59:02,857 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 50% complete
+2014-04-19 20:00:03,640 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 20:00:03,641 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 20:00:03,641 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 10
+2014-04-19 20:00:03,642 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job7527790208737919604.jar
+2014-04-19 20:00:12,239 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job7527790208737919604.jar created
+2014-04-19 20:00:12,258 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 20:00:12,260 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 20:00:12,260 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 20:00:12,260 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 20:00:12,282 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2014-04-19 20:00:12,305 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 20:00:12,305 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 12
+2014-04-19 20:00:12,305 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 10
+2014-04-19 20:00:12,419 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 20:00:12,439 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 10
+2014-04-19 20:00:12,439 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 10
+2014-04-19 20:00:12,451 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 20:00:12,456 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 10
+2014-04-19 20:00:12,456 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 10
+2014-04-19 20:00:12,472 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 12
+2014-04-19 20:00:12,788 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0009
+2014-04-19 20:00:12,788 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases joinTable,result
+2014-04-19 20:00:12,788 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: joinTable[49,12],joinTable[49,12] C:  R: result[50,9]
+2014-04-19 20:00:12,788 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0009
+2014-04-19 20:06:18,209 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 20:06:18,210 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 20:06:18,210 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 10
+2014-04-19 20:06:18,210 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job879922152144142464.jar
+2014-04-19 20:06:24,775 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job879922152144142464.jar created
+2014-04-19 20:06:24,779 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 20:06:24,779 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 20:06:24,780 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 20:06:24,780 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 20:06:24,796 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2014-04-19 20:06:24,804 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 20:06:24,804 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 12
+2014-04-19 20:06:24,804 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 10
+2014-04-19 20:06:24,914 [JobControl] INFO  org.apache.hadoop.security.ShellBasedUnixGroupsMapping - add hadoop to shell userGroupsCache
+2014-04-19 20:06:24,915 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 20:06:24,933 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 10
+2014-04-19 20:06:24,933 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 10
+2014-04-19 20:06:24,944 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 4
+2014-04-19 20:06:25,297 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0010
+2014-04-19 20:06:25,297 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases resultFinal1,resultGroup,resultSum
+2014-04-19 20:06:25,297 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: resultSum[53,13],resultGroup[52,14] C: resultSum[53,13],resultGroup[52,14] R: resultSum[53,13],resultFinal1[54,15]
+2014-04-19 20:06:25,297 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0010
+2014-04-19 20:07:55,181 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 20:07:55,181 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 20:07:55,182 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 10
+2014-04-19 20:07:55,182 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job8228991161194861403.jar
+2014-04-19 20:08:01,598 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job8228991161194861403.jar created
+2014-04-19 20:08:01,603 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 20:08:01,604 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 20:08:01,604 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 20:08:01,604 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 20:08:01,616 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2014-04-19 20:08:01,623 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 20:08:01,624 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 44
+2014-04-19 20:08:01,624 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 10
+2014-04-19 20:08:01,734 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 20:08:01,755 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 10
+2014-04-19 20:08:01,755 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 10
+2014-04-19 20:08:01,766 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 20:08:01,771 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 10
+2014-04-19 20:08:01,772 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 10
+2014-04-19 20:08:01,784 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 20:08:02,117 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0011
+2014-04-19 20:08:02,117 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases resultFinal1,resultFinal2
+2014-04-19 20:08:02,117 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: resultFinal1[54,15],resultFinal1[54,15] C:  R: resultFinal2[56,15]
+2014-04-19 20:08:02,117 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0011
+2014-04-19 20:08:20,185 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 70% complete
+2014-04-19 20:08:57,368 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 20:08:57,369 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 20:08:57,369 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 10
+2014-04-19 20:08:57,370 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job7921073242634212315.jar
+2014-04-19 20:09:04,002 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job7921073242634212315.jar created
+2014-04-19 20:09:04,006 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 20:09:04,006 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 20:09:04,006 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 20:09:04,006 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 20:09:04,016 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2014-04-19 20:09:04,023 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 20:09:04,023 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 44
+2014-04-19 20:09:04,023 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 10
+2014-04-19 20:09:04,124 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 20:09:04,142 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 10
+2014-04-19 20:09:04,142 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 10
+2014-04-19 20:09:04,152 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 20:09:04,156 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 2
+2014-04-19 20:09:04,156 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 2
+2014-04-19 20:09:04,160 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 20:09:04,517 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0012
+2014-04-19 20:09:04,517 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases resultFinal3,resultFinal4
+2014-04-19 20:09:04,517 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: resultFinal3[57,15],resultFinal3[57,15] C:  R: resultFinal4[59,16]
+2014-04-19 20:09:04,517 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0012
+2014-04-19 20:09:23,592 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 76% complete
+2014-04-19 20:09:59,768 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 20:09:59,768 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 20:09:59,770 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 1
+2014-04-19 20:09:59,771 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job4994520933940657863.jar
+2014-04-19 20:10:06,356 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job4994520933940657863.jar created
+2014-04-19 20:10:06,360 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 20:10:06,360 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 20:10:06,360 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 20:10:06,361 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 20:10:06,378 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2014-04-19 20:10:06,387 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 20:10:06,387 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 44
+2014-04-19 20:10:06,387 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 1
+2014-04-19 20:10:06,510 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 20:10:06,528 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 10
+2014-04-19 20:10:06,528 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 10
+2014-04-19 20:10:06,539 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 20:10:06,879 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0013
+2014-04-19 20:10:06,879 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases resultFinal5
+2014-04-19 20:10:06,879 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: resultFinal5[60,15] C:  R: 
+2014-04-19 20:10:06,879 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0013
+2014-04-19 20:10:21,940 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 83% complete
+2014-04-19 20:10:30,972 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 84% complete
+2014-04-19 20:10:36,994 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 86% complete
+2014-04-19 20:10:47,038 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 20:10:47,038 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 20:10:47,039 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 10
+2014-04-19 20:10:47,039 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job4228482839791919322.jar
+2014-04-19 20:10:53,373 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job4228482839791919322.jar created
+2014-04-19 20:10:53,376 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 20:10:53,377 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 20:10:53,377 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 20:10:53,377 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 20:10:53,399 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2014-04-19 20:10:53,405 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 20:10:53,405 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 44
+2014-04-19 20:10:53,405 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 10
+2014-04-19 20:10:53,515 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 20:10:53,535 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 10
+2014-04-19 20:10:53,535 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 10
+2014-04-19 20:10:53,549 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 20:10:53,900 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0014
+2014-04-19 20:10:53,900 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases resultFinal5
+2014-04-19 20:10:53,900 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: resultFinal5[60,15] C:  R: 
+2014-04-19 20:10:53,900 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0014
+2014-04-19 20:11:11,968 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 90% complete
+2014-04-19 20:11:44,128 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2014-04-19 20:11:44,128 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2014-04-19 20:11:44,129 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 1
+2014-04-19 20:11:44,129 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job5346264885386514997.jar
+2014-04-19 20:11:50,846 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job5346264885386514997.jar created
+2014-04-19 20:11:50,851 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2014-04-19 20:11:50,852 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2014-04-19 20:11:50,852 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2014-04-19 20:11:50,852 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2014-04-19 20:11:50,864 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2014-04-19 20:11:50,870 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of map tasks: null
+2014-04-19 20:11:50,871 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting default number of map tasks based on cluster size to : 44
+2014-04-19 20:11:50,871 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Default number of reduce tasks: 1
+2014-04-19 20:11:50,995 [JobControl] INFO  org.apache.hadoop.security.ShellBasedUnixGroupsMapping - add hadoop to shell userGroupsCache
+2014-04-19 20:11:50,995 [JobControl] INFO  org.apache.hadoop.mapred.JobClient - Setting group to hadoop
+2014-04-19 20:11:51,138 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 10
+2014-04-19 20:11:51,138 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 10
+2014-04-19 20:11:51,151 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2014-04-19 20:11:51,364 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201404191913_0015
+2014-04-19 20:11:51,364 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases resultFinal5
+2014-04-19 20:11:51,364 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: resultFinal5[60,15] C:  R: 
+2014-04-19 20:11:51,364 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://172.31.24.25:9100/jobdetails.jsp?jobid=job_201404191913_0015
+2014-04-19 20:12:07,432 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 96% complete
+2014-04-19 20:12:26,507 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 100% complete
+2014-04-19 20:12:26,511 [main] INFO  org.apache.pig.tools.pigstats.SimplePigStats - Script Statistics: 
+
+HadoopVersion	PigVersion	UserId	StartedAt	FinishedAt	Features
+1.0.3	0.11.1.1-amzn	hadoop	2014-04-19 19:47:17	2014-04-19 20:12:26	HASH_JOIN,GROUP_BY,ORDER_BY,FILTER,CROSS,LIMIT
+
+Success!
+
+Job Stats (time in seconds):
+JobId	Maps	Reduces	MaxMapTime	MinMapTIme	AvgMapTime	MedianMapTime	MaxReduceTime	MinReduceTime	AvgReduceTime	MedianReducetime	Alias	Feature	Outputs
+job_201404191913_0001	4	1	66	54	62	64	24	24	24	24	ECATdata,ECATgroup,cleanData,rawData,totalCount	MULTI_QUERY,COMBINER	
+job_201404191913_0002	1	1	15	15	15	15	21	21	21	21	classData,classF,classTotal,classTotal1	MULTI_QUERY,COMBINER	
+job_201404191913_0003	2	0	27	27	27	27	0	0	0	0	rawTestData	MAP_ONLY	
+job_201404191913_0004	4	10	51	51	51	51	21	15	17	18	vocabulary,wordTotal	GROUP_BY	
+job_201404191913_0005	2	10	132	21	76	76	147	30	61	39	ECATdataFormal,joinTable,joinTable1,joinTable2,testData,testData1	HASH_JOIN	
+job_201404191913_0006	2	10	12	6	9	9	18	12	15	15	classInUse,classPrior,resultFinal1		
+job_201404191913_0007	1	1	15	15	15	15	15	15	15	15	voc,vocSize	GROUP_BY,MULTI_QUERY,COMBINER	
+job_201404191913_0008	2	10	9	6	7	7	15	12	14	15	joinTable,temp1,totalFenmu		
+job_201404191913_0009	13	10	87	6	60	60	144	12	54	34	joinTable,result		
+job_201404191913_0010	4	10	54	45	50	51	21	12	15	15	resultFinal1,resultGroup,resultSum	GROUP_BY,COMBINER	
+job_201404191913_0011	2	10	9	9	9	9	18	15	15	15	resultFinal1,resultFinal2		
+job_201404191913_0012	2	10	12	9	10	10	18	12	15	15	resultFinal3,resultFinal4	HASH_JOIN	
+job_201404191913_0013	1	1	6	6	6	6	15	15	15	15	resultFinal5	SAMPLER	
+job_201404191913_0014	1	10	9	9	9	9	18	12	14	15	resultFinal5	ORDER_BY,COMBINER	
+job_201404191913_0015	1	1	6	6	6	6	12	12	12	12	resultFinal5		s3://chensun/output3,
+
+Input(s):
+Successfully read 80435 records (119636513 bytes) from: "s3://bigmldatasets/rcv1_test/full"
+Successfully read 10663694 records (347758047 bytes) from: "s3://bigmldatasets/rcv1_train_events"
+Successfully read 103 records (58 bytes) from: "s3://bigmldatasets/rcv1_train_class_events"
+
+Output(s):
+Successfully stored 1000 records in: "s3://chensun/output3"
+
+Counters:
+Total records written : 1000
+Total bytes written : 0
+Spillable Memory Manager spill count : 0
+Total bags proactively spilled: 20
+Total records proactively spilled: 51836405
+
+Job DAG:
+job_201404191913_0003	->	job_201404191913_0005,job_201404191913_0012,
+job_201404191913_0001	->	job_201404191913_0005,job_201404191913_0004,
+job_201404191913_0005	->	job_201404191913_0009,
+job_201404191913_0004	->	job_201404191913_0007,
+job_201404191913_0007	->	job_201404191913_0008,
+job_201404191913_0008	->	job_201404191913_0009,
+job_201404191913_0009	->	job_201404191913_0010,
+job_201404191913_0010	->	job_201404191913_0011,
+job_201404191913_0002	->	job_201404191913_0006,
+job_201404191913_0006	->	job_201404191913_0011,
+job_201404191913_0011	->	job_201404191913_0012,
+job_201404191913_0012	->	job_201404191913_0013,
+job_201404191913_0013	->	job_201404191913_0014,
+job_201404191913_0014	->	job_201404191913_0015,
+job_201404191913_0015
+
+
+2014-04-19 20:12:26,991 [main] WARN  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Encountered Warning ACCESSING_NON_EXISTENT_FIELD 1265955 time(s).
+2014-04-19 20:12:26,991 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Success!
+Command exiting with ret '0'

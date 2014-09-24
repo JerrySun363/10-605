@@ -1,0 +1,6 @@
+2014-02-21T04:06:19.833Z INFO Fetching jar file.
+2014-02-21T04:06:27.422Z INFO Working dir /mnt/var/lib/hadoop/steps/2
+2014-02-21T04:06:27.423Z INFO Executing /usr/java/latest/bin/java -cp /home/hadoop/conf:/usr/java/latest/lib/tools.jar:/home/hadoop:/home/hadoop/hadoop-tools.jar:/home/hadoop/hadoop-tools-1.0.3.jar:/home/hadoop/hadoop-core-1.0.3.jar:/home/hadoop/hadoop-core.jar:/home/hadoop/lib/*:/home/hadoop/lib/jetty-ext/* -Xmx1000m -Dhadoop.log.dir=/mnt/var/log/hadoop/steps/2 -Dhadoop.log.file=syslog -Dhadoop.home.dir=/home/hadoop -Dhadoop.id.str=hadoop -Dhadoop.root.logger=INFO,DRFA -Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/2/tmp -Djava.library.path=/home/hadoop/native/Linux-amd64-64 org.apache.hadoop.util.RunJar /home/hadoop/contrib/streaming/hadoop-streaming.jar -mapper java -cp nb.jar NBTrain -reducer java -cp nb.jar NBReducer -input s3://bigmldatasets/rcv1/full/ -output s3://chensun/nb5/ -cacheFile s3n://chensun/nb.jar#nb.jar
+2014-02-21T04:18:21.482Z INFO Execution ended with ret val 0
+2014-02-21T04:18:29.104Z INFO Step created jobs: job_201402210404_0001
+2014-02-21T04:18:36.233Z INFO Step succeeded

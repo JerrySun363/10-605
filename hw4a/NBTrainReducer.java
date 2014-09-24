@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
 
-public class MergeCounts {
+public class NBTrainReducer{
 	public static PrintWriter pw = new PrintWriter(System.out);
 	
 	public static void main(String args[]){
@@ -40,7 +40,8 @@ public class MergeCounts {
 				}
 			}
 			bi.close();
-			pw.println("Y=*\t"+instanceCount);
+			//pw.println("Y=*"+instanceCount);
+			//pw.println(myLabel+"\t"+myCount);
 			pw.flush();
 			pw.close();
 		} catch (NumberFormatException | IOException e) {
@@ -49,5 +50,5 @@ public class MergeCounts {
 		}
 		
 	}
-	
 }
+	

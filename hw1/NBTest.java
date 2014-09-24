@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 public class NBTest {
 	
 	public static HashMap<String, Integer> labelCount = new HashMap<String, Integer>();
-	public static HashMap<String,HashMap<Integer, Integer>> labelWordCount = new HashMap<String,HashMap<Integer, Integer>>();
+	public static HashMap<String,HashMap<String, Integer>> labelWordCount = new HashMap<String,HashMap<String, Integer>>();
 	public static PrintWriter pw = new PrintWriter(System.out);
 	
 	public static void main(String args[]) throws IOException{
@@ -27,6 +27,7 @@ public class NBTest {
 			String countString = tokens[1];
 			int count = Integer.parseInt(countString);
 			parseLabel(label,count);
+			
 		}
 		bi.close();
 		readTest(args[0]);
@@ -47,12 +48,12 @@ public class NBTest {
 			String[] Y=parts[0].split("=");
 			String[] W=parts[1].split("=");
 			if(labelWordCount.containsKey(Y[1])){
-				HashMap<Integer, Integer> wordCount = labelWordCount.get(Y[1]);
-				wordCount.put(W[1].hashCode(), count);
+				HashMap<String, Integer> wordCount = labelWordCount.get(Y[1]);
+				wordCount.put(W[1], count);
 				labelWordCount.put(Y[1], wordCount);
 			}else{
-				HashMap<Integer, Integer> wordCount = new HashMap<Integer, Integer>();
-				wordCount.put(W[1].hashCode(), count);
+				HashMap<String, Integer> wordCount = new HashMap<String, Integer>();
+				wordCount.put(W[1], count);
 				labelWordCount.put(Y[1], wordCount);
 			}
 				
@@ -68,7 +69,7 @@ public class NBTest {
 				String[] parts = line.split("\t");
 				//String[] labels = parts[0].split(",");
 				String cur_doc = parts[1];
-				Vector<Integer> words = NBTrain.tokenizeDoc(cur_doc);
+				Vector<String> words = NBTrain.tokenizeDoc(cur_doc);
 				String result = makePredicition(words);
 				pw.println(result);
 				//System.out.println();
@@ -82,7 +83,7 @@ public class NBTest {
 		}
 	}
 
-	private static String makePredicition(Vector<Integer> words) {
+	private static String makePredicition(Vector<String> words) {
 		double maxPro = Double.NEGATIVE_INFINITY;
 
 		String maxP ="";
@@ -96,19 +97,18 @@ public class NBTest {
 
 			int article = labelCount.get(label);
 			//System.out.println("article in this category is "+ article);
-			double p = Math.log((article+1)*1.0/(totalCount));
-			HashMap<Integer, Integer> dic = labelWordCount.get(label);
-			int dicSize = dic.get("*".hashCode());
+			double p = Math.log((article+1)*1.0/(totalCount+4));
+			HashMap<String, Integer> dic = labelWordCount.get(label);
+			int dicSize = dic.get("*");
 			//System.out.println("dic size is "+ dicSize);
-			dicSize+=dic.size()-1;
+			dicSize+=words.size();
 			
-			for(int word : words){
+			for(String word : words){
 				//System.out.println("now p is "+ p);
 				int count =1;
 				
-				if(dic.containsKey(word)){
+				if(dic.containsKey(word))
 					count+=dic.get(word);
-				}
 				
 				p += Math.log(count*1.0/dicSize);
 				

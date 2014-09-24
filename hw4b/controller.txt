@@ -1,0 +1,6 @@
+2014-02-28T02:55:49.984Z INFO Fetching jar file.
+2014-02-28T02:55:57.713Z INFO Working dir /mnt/var/lib/hadoop/steps/2
+2014-02-28T02:55:57.713Z INFO Executing /usr/java/latest/bin/java -cp /home/hadoop/conf:/usr/java/latest/lib/tools.jar:/home/hadoop:/home/hadoop/hadoop-tools.jar:/home/hadoop/hadoop-tools-1.0.3.jar:/home/hadoop/hadoop-core-1.0.3.jar:/home/hadoop/hadoop-core.jar:/home/hadoop/lib/*:/home/hadoop/lib/jetty-ext/* -Xmx1000m -Dhadoop.log.dir=/mnt/var/log/hadoop/steps/2 -Dhadoop.log.file=syslog -Dhadoop.home.dir=/home/hadoop -Dhadoop.id.str=hadoop -Dhadoop.root.logger=INFO,DRFA -Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/2/tmp -Djava.library.path=/home/hadoop/native/Linux-amd64-64 org.apache.hadoop.util.RunJar /mnt/var/lib/hadoop/steps/2/mywork2.jar run s3://bigmldatasets/rcv1/full/ s3://chensun/nb6 1
+2014-02-28T03:05:03.266Z INFO Execution ended with ret val 0
+2014-02-28T03:05:11.353Z INFO Step created jobs: job_201402280253_0001
+2014-02-28T03:05:18.933Z INFO Step succeeded
